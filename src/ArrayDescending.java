@@ -16,7 +16,7 @@ public class ArrayDescending {
         bubbleSortInDescendingOrder(numbers);
 
         //Displaying the numbers after sorting
-        System.out.print("After sorting, numbers are ");
+        System.out.print("After sorting descending order, numbers are ");
         for(int i = 0; i < numbers.length; i++)
         {
             System.out.print(numbers[i]+" ");
@@ -28,7 +28,7 @@ public class ArrayDescending {
         bubbleSortInAscendingOrder(numbers);
  
         //Displaying the numbers after sorting
-        System.out.print("After sorting, numbers are ");
+        System.out.print("After sorting ascending order, numbers are ");
         for(int i = 0; i < numbers.length; i++)
         {
             System.out.print(numbers[i]+" ");
